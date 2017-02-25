@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#chart {
+    margin: 20px auto;
+    width: 800px;
+    height: 500px;
+}
