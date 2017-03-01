@@ -113,7 +113,7 @@ window.onload = function() {
                 left: '5%',
                 style: {
                     text: '说明：这是一张自定义统计图表',
-                    font: '18px "MicroSoft YaHei", sans-serif'
+                    font: '18px "Microsoft YaHei", sans-serif'
                 }
             }]
         },
