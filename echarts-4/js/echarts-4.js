@@ -4,7 +4,6 @@ window.onload = function() {
     // $.get('data/sp500hst.txt', function(data) {     // 本地服务器测试用
     $.get('data/converted.json', function(data) {     // demo展示用
         chart.hideLoading();
-        data = JSON.parse(data);
         chart.setOption({
             title: {
                 text: '2009年8月至2010年8月股票数据',

@@ -28,7 +28,19 @@ http.createServer(function(request, response) {
                     response.end('Not Found');
                 } else {
                     var data = pre.preprocess(file);
+                    response.setHeader('Content-Type', 'application/json');
                     response.end(JSON.stringify(data));
+                }
+            });
+        } else if (request.url === '/data/converted.json') {
+            fs.readFile(filepath, function(err, file) {
+                if (err) {
+                    console.error(err);
+                    response.statusCode = 404;
+                    response.end('Not Found');
+                } else {
+                    response.setHeader('Content-Type', 'application/json');
+                    response.end(file);
                 }
             });
         } else {
