@@ -16,6 +16,10 @@
     [demo链接](https://littlecrabxxy.github.io/IFE-2017/echarts-3/echarts-3.html)
     [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/echarts-3)
 
+*   ECharts No.4 - 可视化前的数据预处理
+    [demo链接](https://littlecrabxxy.github.io/IFE-2017/echarts-4/echarts-4.html)
+    [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/echarts-4)
+
 ## 使用的库包括：
 
 *   [ECharts 3.4.0](http://echarts.baidu.com/download.html)
