@@ -1,3 +1,5 @@
+// 本地服务器，本地测试用
+
 var http = require('http');
 var fs = require('fs');
 var ROOT = './';
@@ -27,5 +29,8 @@ http.createServer(function(request, response) {
                 response.end(file);
             }
         });
+    } else {
+        response.statusCode = 404;
+        response.end();
     }
 }).listen(8080, 'localhost');
