@@ -20,6 +20,10 @@
     [demo链接](https://littlecrabxxy.github.io/IFE-2017/echarts-4/echarts-4.html)
     [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/echarts-4)
 
+*   ECharts No.5 - 动态数据
+    [demo链接](https://littlecrabxxy.github.io/IFE-2017/echarts-5/echarts-5.html)
+    [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/echarts-5)
+
 ## 使用的库包括：
 
 *   [ECharts 3.4.0](http://echarts.baidu.com/download.html)
