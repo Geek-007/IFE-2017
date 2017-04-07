@@ -11,7 +11,7 @@ var ROOT = './echarts-4';
 http.createServer(function(request, response) {
     request.on('error', function(err) {
         console.error(err);
-        response.statusCode = '400';
+        response.statusCode = 400;
         response.end();
     });
     response.on('error', function(err) {

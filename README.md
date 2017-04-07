@@ -24,8 +24,13 @@
     [demo链接](https://littlecrabxxy.github.io/IFE-2017/echarts-5/echarts-5.html)
     [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/echarts-5)
 
+*   ECharts No.6 - 绘制人物关系图
+    [demo链接](https://littlecrabxxy.github.io/IFE-2017/echarts-6/echarts-6.html)
+    [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/echarts-6)
+
 ## 使用的库包括：
 
 *   [ECharts 3.4.0](http://echarts.baidu.com/download.html)
+    （[dataTool](https://github.com/ecomfe/echarts/blob/master/dist/extension/dataTool.min.js)）
 
 *   [jQuery 3.1.1](http://jquery.com/download/)
