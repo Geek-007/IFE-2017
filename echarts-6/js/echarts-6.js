@@ -1,7 +1,7 @@
 window.onload = function() {
     var chart = echarts.init(document.getElementById('chart'));
     chart.showLoading();
-    $.get('/data/dolphins.gexf', function(xml) {
+    $.get('data/dolphins.gexf', function(xml) {
         chart.hideLoading();
         var graph = echarts.dataTool.gexf.parse(xml);
         graph.nodes.forEach(function(node) {
