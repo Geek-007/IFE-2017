@@ -32,7 +32,7 @@
     [demo链接](https://littlecrabxxy.github.io/IFE-2017/echarts-7/echarts-7.html)
     [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/echarts-7)
 
-*   WebGL No.1 - Three.js 入门
+*   WebGL No.1 - Three.js 入门：
     [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-1/webgl-1.html)
     [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-1)
 
