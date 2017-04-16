@@ -36,6 +36,10 @@
     [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-1/webgl-1.html)
     [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-1)
 
+*   WebGL No.2 - 光与影：
+    [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-2/webgl-2.html)
+    [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-2)
+
 ## 使用的库包括：
 
 *   [ECharts 3.4.0](http://echarts.baidu.com/download.html)
