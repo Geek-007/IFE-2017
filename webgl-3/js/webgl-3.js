@@ -53,7 +53,7 @@ window.onload = function() {
         })
     );
     plane.rotation.x = -Math.PI / 2;
-    plane.position.y = -1.05;
+    plane.position.y = -1.15;
     plane.receiveShadow = true;
     scene.add(plane);
     // light
