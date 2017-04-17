@@ -44,6 +44,10 @@
     [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-3/webgl-3.html)
     [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-3)
 
+*   WebGL No.4 - 照相机和交互控制：
+    [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-4/webgl-4.html)
+    [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-4)
+
 ## 使用的库包括：
 
 *   [ECharts 3.4.0](http://echarts.baidu.com/download.html)
@@ -52,3 +56,4 @@
 *   [jQuery 3.1.1](http://jquery.com/download/)
 
 *   [three.js](https://github.com/mrdoob/three.js/blob/dev/build/three.min.js)
+    （[TrackballControls](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/TrackballControls.js)）
