@@ -16,6 +16,7 @@ window.onload = function() {
     scene.add(camera);
     // controls: rotate zoom pan
     var controls = new THREE.TrackballControls(camera);
+    controls.minDistance = 3;
 	controls.addEventListener('change', function() {
         renderer.render(scene, camera);
     });

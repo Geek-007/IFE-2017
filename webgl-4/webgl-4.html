@@ -7,10 +7,20 @@
     <title>照相机和交互控制</title>
     <style type="text/css">
     * {margin: 0; padding: 0; overflow: hidden;}
+    body {position: relative;}
+    .info {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        padding: 0 10px;
+        font: 700 14px/2 "Microsoft YaHei", sans-serif;
+        background-color: #f0f0f0;
+    }
     </style>
 </head>
 <body>
     <canvas id="main"></canvas>
+    <div id="info" class="info">鼠标左键：旋转 | 滚轮：缩放 | 鼠标右键：平移</div>
 
     <script type="text/javascript" src="../lib/three.min.js"></script>
     <script type="text/javascript" src="../lib/TrackballControls.js"></script>
