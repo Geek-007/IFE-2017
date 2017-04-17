@@ -40,6 +40,10 @@
     [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-2/webgl-2.html)
     [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-2)
 
+*   WebGL No.3 - 材质与纹理：
+    [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-3/webgl-3.html)
+    [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-3)
+
 ## 使用的库包括：
 
 *   [ECharts 3.4.0](http://echarts.baidu.com/download.html)
