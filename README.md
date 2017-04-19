@@ -56,4 +56,5 @@
 *   [jQuery 3.1.1](http://jquery.com/download/)
 
 *   [three.js](https://github.com/mrdoob/three.js/blob/dev/build/three.min.js)
-    （[TrackballControls](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/TrackballControls.js)）
+    （[TrackballControls](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/TrackballControls.js)、
+    [stats.js](https://github.com/mrdoob/stats.js/blob/master/build/stats.min.js)）
