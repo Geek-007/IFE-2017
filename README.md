@@ -48,6 +48,10 @@
     [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-4/webgl-4.html)
     [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-4)
 
+*   WebGL No.5 - 动画：
+    [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-5/webgl-5.html)
+    [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-5)
+
 ## 使用的库包括：
 
 *   [ECharts 3.4.0](http://echarts.baidu.com/download.html)
