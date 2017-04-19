@@ -52,6 +52,10 @@
     [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-5/webgl-5.html)
     [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-5)
 
+*   WebGL No.6 - 外部模型：
+    [demo链接](https://littlecrabxxy.github.io/IFE-2017/webgl-6/webgl-6.html)
+    [源码链接](https://github.com/LittleCrabXXY/IFE-2017/tree/master/webgl-6)
+
 ## 使用的库包括：
 
 *   [ECharts 3.4.0](http://echarts.baidu.com/download.html)
@@ -61,4 +65,6 @@
 
 *   [three.js](https://github.com/mrdoob/three.js/blob/dev/build/three.min.js)
     （[TrackballControls](https://github.com/mrdoob/three.js/blob/master/examples/js/controls/TrackballControls.js)、
-    [stats.js](https://github.com/mrdoob/stats.js/blob/master/build/stats.min.js)）
+    [stats.js](https://github.com/mrdoob/stats.js/blob/master/build/stats.min.js)、
+    [MTLLoader.js](https://github.com/mrdoob/three.js/tree/master/examples/js/loaders)、
+    [OBJLoader.js](https://github.com/mrdoob/three.js/tree/master/examples/js/loaders)）
