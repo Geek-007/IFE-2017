@@ -12,6 +12,9 @@ window.onload = function() {
     camera.position.set(3, 2, 3);
     camera.lookAt(new THREE.Vector3(0, -0.5, 0));
     scene.add(camera);
+    // progress bar
+    var progress = document.getElementById('progress');
+    var proInfo = document.getElementById('progress-info').getElementsByTagName('span')[0];
     // texture loader
     var tLoader = new THREE.TextureLoader();
     var textureFloor = tLoader.load('img/floor.png', function() {
@@ -36,11 +39,24 @@ window.onload = function() {
         var objLoader = new THREE.OBJLoader();
         objLoader.setMaterials(materials);
         objLoader.load('model/MiniCooperCountryman.obj', function(obj) {
+            obj.traverse(function(child) {
+                if (child instanceof THREE.Mesh) {
+                    child.material.side = THREE.DoubleSide;
+                }
+            });
             obj.position.y = -1.15;
             obj.rotation.set(-Math.PI / 2, 0, Math.PI / 2);
             car = obj;
             scene.add(obj);
             renderer.render(scene, camera);
+        }, function(xhr) {
+            if (xhr.lengthComputable) {
+                var percent = +(xhr.loaded / xhr.total * 100).toFixed(2);
+                progress.style.marginLeft = '-' + (100 - percent) + '%';
+                proInfo.innerText = percent;
+            }
+        }, function(err) {
+            console.error(err);
         });
     });
     // light

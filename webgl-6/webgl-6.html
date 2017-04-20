@@ -4,34 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="content-type" content="text/html">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" type="text/css" href="css/webgl-6.css">
     <title>外部模型</title>
-    <style type="text/css">
-    * {margin: 0; padding: 0; overflow: hidden;}
-    .info {
-        position: absolute;
-        top: 0;
-        right: 0;
-        text-align: center;
-    }
-    .key {
-        width: 30px;
-        height: 30px;
-        border-radius: 10px;
-        background-color: #fff;
-        font: 700 14px/2 "Microsoft YaHei", sans-serif; 
-    }
-    .top {
-        position: relative;
-        left: 50%;
-        margin-left: -15px;
-    }
-    .bottom {
-        float: left;
-    }
-    </style>
 </head>
 <body>
     <canvas id="main"></canvas>
+    <div id="progress-wrap">
+        <div id="progress-info">loading model: <span>0</span> %</div>
+        <div id="progress"></div>
+    </div>
     <div class="info">
         <div class="key top">W</div>
         <div class="key bottom">A</div>
